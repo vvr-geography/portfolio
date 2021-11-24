@@ -9,6 +9,10 @@
 .navbar{
     font-family: 'Righteous', cursive;
 }
+.nav-link{
+    text-align: right;
+}
+
 #landing-page-h1{
     font-family: 'Righteous', cursive;
     padding-bottom: 10px;
@@ -74,26 +78,25 @@ img{
     font-family: 'Lato', sans-serif;
     font-weight: 800;
 }
+
 a:link{
     color: black;
 }
 a:visited{
     color:black;
 }
-img:hover{
-    opacity: 20% !important;
-}
-
 .img_wrap {
     position: relative;
     height: 100%;
     width: 100%;
-    z-index: 1;
 }
 .img_wrap:hover .img-description {
     visibility: visible;
-    opacity:20% !important; 
 }
+.img-description {
+    background-color: white;
+}
+
 .col{
     padding:0;
 }
