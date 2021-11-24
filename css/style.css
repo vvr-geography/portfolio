@@ -97,6 +97,12 @@ img:hover{
     visibility: visible;
     opacity:1; 
 }
+.item:hover .img-description{
+    visibility: visible;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
 .col{
     padding:0;
 }
