@@ -1,3 +1,7 @@
+.img-inline {
+    padding: 10px
+}
+
 .text-center{
     text-align: center;
     font-family: 'Lato', sans-serif;
@@ -41,6 +45,7 @@ p{
     font-family: 'Lato', sans-serif;
     font-weight: 300;
     margin-bottom: 0;
+    margin-bottom: 15px;
 }
 h2{
     font-family: 'Lato', sans-serif;
@@ -65,7 +70,7 @@ h2{
 img{
     width: 100%;
     height: 100%;
-    padding: 10px;
+
 }
 .img-description{
     margin-top: 20px;
@@ -114,4 +119,75 @@ h3{
     font-family: 'Lato', sans-serif;
     font-size:x-large;
     font-weight: 300;
+    margin-bottom: 15px;
+}
+
+#map {    
+    height: 600px;    
+    width: 100%;
+    display: inline-block;
+    }
+
+.sequence-control-container {  
+        width: 350px;  
+        height: 70px;  
+        background-color: rgba(255,255,255,0.5);  
+        padding: 10px;  
+        line-height: 45px;  
+        text-align: center;  
+        border: solid gray 1px;  
+}
+
+.legend-control-container {
+    width: 130px;
+    height: 140px;
+    font-weight: 0;
+    background-color: rgba(255,255,255,0.5);
+    padding: 10px;
+    text-align: center;
+    border: solid gray 1px;
+}
+
+.legend-control-container p{
+     margin: 0;
+     font-family: 'Lato', sans-serif;
+     font-size:small;
+     font-weight: bold;
+}
+    
+.range-slider {  
+        width: 245px;  
+}  
+    
+.step {  
+        width: 30px;
+        opacity: 50%; 
+    }  
+    
+.step img {  
+        width: 100%;  
+        height: auto;  
+} 
+
+#forward {  
+    float: right;
+}  
+
+#reverse {  
+    float: left;  
+}
+
+
+body {
+    margin:0;
+}
+
+.leaflet-popup-content p {
+    margin:0;
+    font-family: 'Lato', sans-serif;
+    font-size:small;
+}
+
+.leaflet-shadow-pane {
+    z-index: 300 !important;
 }
